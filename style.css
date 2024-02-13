@@ -4,10 +4,15 @@ body {
 
 }
 
+.header {
+    background-color: #FFF8F3;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -41,7 +46,17 @@ nav a {
     border-radius: 3px;
     color: white;
     border: none;
-    padding: 5px;
-    width: 70px;
+    padding: 12px;
+    width: 120px;
     font-weight: 700;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 500px;
 }
