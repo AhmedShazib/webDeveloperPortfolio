@@ -82,7 +82,7 @@ nav a {
 }
 
 .about {
-    padding: 130px;
+    padding: 100px;
     border-radius: 10px;
     background-color: #ffd6b8;
     /* width: 900px; */
@@ -99,6 +99,8 @@ nav a {
 .section-description {
     color: rgb(37, 36, 36);
     font-size: 18px;
+    justify-content: center;
+    text-align: justify;
 }
 
 main {
@@ -118,4 +120,14 @@ main {
 
 .info-description {
     margin: -18px;
+}
+
+#what-I-do {
+    font-size: 18px;
+    padding: 30px 260px;
+    text-align: justify;
+}
+
+.skill-container {
+    display: flex;
 }
