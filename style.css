@@ -6,6 +6,10 @@ body {
 
 .header {
     background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
 nav {
@@ -15,19 +19,15 @@ nav {
     margin: 0 200px;
 }
 
+nav>ul {
+    display: flex;
+    align-self: center;
+}
+
 .nav-title {
     color: black;
     font-size: 45px;
     font-weight: 800;
-}
-
-.text-primary {
-    color: rgb(255, 136, 0);
-}
-
-nav>ul {
-    display: flex;
-    align-self: center;
 }
 
 nav li {
@@ -41,6 +41,14 @@ nav a {
     color: rgb(48, 48, 48);
 }
 
+.text-primary {
+    color: rgb(255, 136, 0);
+}
+
+
+
+
+
 .btn-primary {
     background-color: rgb(255, 136, 0);
     border-radius: 3px;
@@ -52,11 +60,62 @@ nav a {
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
 
+.banner-greeting {
+    font-size: 45px;
+    color: rgb(79, 78, 78);
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: -42px;
+    margin-bottom: 20px;
+}
+
 .profile-pic {
     width: 500px;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #ffd6b8;
+    /* width: 900px; */
+    margin: 130px;
+}
+
+.section-title {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: rgb(37, 36, 36);
+    font-size: 18px;
+}
+
+main {
+    max-width: 1530px;
+    margin: 0 auto;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-description {
+    margin: -18px;
 }
