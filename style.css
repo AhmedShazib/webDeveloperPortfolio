@@ -99,7 +99,7 @@ nav a {
 .section-description {
     color: rgb(37, 36, 36);
     font-size: 18px;
-    justify-content: center;
+    text-align: center;
     text-align: justify;
 }
 
@@ -109,7 +109,7 @@ main {
 }
 
 main section {
-    margin top: 130px;
+    margin-top: 130px;
 }
 
 .about-info-container {
@@ -163,4 +163,31 @@ main section {
 .download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #ffe3bf;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-column {
+    width: 50%;
+
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 15px 35px;
+    color: gray;
+    border: 0;
+    width: 100%;
 }
